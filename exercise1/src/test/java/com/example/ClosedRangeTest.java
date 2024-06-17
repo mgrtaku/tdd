@@ -28,4 +28,9 @@ class ClosedRangeTest {
     void 閉区間3_8を与えたときにtoStringメゾットを実行すると3_8を返す() {
         assertEquals("[3,8]", range.toString());
     }
+
+    @Test
+    void 閉区間3_8を与えたときに指定した値5を含むか判定する() {
+        assertTrue(range.contains(5));
+    }
 }

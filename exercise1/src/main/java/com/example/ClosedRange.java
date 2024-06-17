@@ -21,4 +21,8 @@ public class ClosedRange {
     public String toString() {
         return "[" + this.lowerEndpoint + "," + this.upperEndpoint + "]";
     }
+
+    public boolean contains(int i) {
+        return false;
+    }
 }
