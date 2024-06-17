@@ -22,8 +22,8 @@ public class ClosedRange {
         return "[" + this.lowerEndpoint + "," + this.upperEndpoint + "]";
     }
 
-    public boolean contains(int i) {
-        if (i >= lowerEndpoint && i <= upperEndpoint) {
+    public boolean contains(int num) {
+        if (num >= lowerEndpoint && num <= upperEndpoint) {
             return true;
         }
         return false;
