@@ -11,7 +11,6 @@ class ClosedRangeTest {
         ClosedRange range = new ClosedRange(3, 8);
         //実行
         //検証
-        int actual = range.getLowerEndpoint();
-        assertEquals(3, actual);
+        assertEquals(3, range.getLowerEndpoint());
     }
 }

@@ -1,12 +1,12 @@
 package com.example;
 
 public class ClosedRange {
-    int i;
-    int ii;
+    int lowerEndpoint;
+    int upperEndpoint;
 
-    public ClosedRange(int i, int i1) {
-        this.i = i;
-        this.ii = ii;
+    public ClosedRange(int lowerEndpoint, int upperEndpoint) {
+        this.lowerEndpoint = lowerEndpoint;
+        this.upperEndpoint = upperEndpoint;
     }
 
     public int getLowerEndpoint() {
