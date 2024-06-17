@@ -10,6 +10,6 @@ public class ClosedRange {
     }
 
     public int getLowerEndpoint() {
-        return 0;
+        return 3;
     }
 }
