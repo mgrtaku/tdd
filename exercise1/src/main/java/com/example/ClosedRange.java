@@ -14,6 +14,6 @@ public class ClosedRange {
     }
 
     public int getUpperEndpoint() {
-        return 0;
+        return this.upperEndpoint;
     }
 }
