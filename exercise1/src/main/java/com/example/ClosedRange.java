@@ -28,4 +28,8 @@ public class ClosedRange {
         }
         return false;
     }
+
+    public boolean isIncluded(ClosedRange range) {
+        return false;
+    }
 }

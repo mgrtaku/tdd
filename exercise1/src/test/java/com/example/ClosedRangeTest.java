@@ -53,4 +53,12 @@ class ClosedRangeTest {
             assertFalse(range.contains(-1));
         }
     }
+
+    @Nested
+    class 閉区間Aが閉区間Bを完全に含むかどうかの判定 {
+        @Test
+        void 閉区間A3_8_閉区間B3_8の時にtrueを返す (){
+            assertTrue(range.isIncluded(new ClosedRange(3, 8)));
+        }
+    }
 }
