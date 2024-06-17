@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/fizzbuzz/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise1/pom.xml" />
+        <option value="$PROJECT_DIR$/exercise2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
