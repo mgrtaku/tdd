@@ -23,4 +23,9 @@ class ClosedRangeTest {
     void 閉区間3_8を与えたときに上端点8を返す(){
         assertEquals(8, range.getUpperEndpoint());
     }
+
+    @Test
+    void 閉区間3_8を与えたときにtoStringメゾットを実行すると3_8を返す() {
+        assertEquals("[3,8]", range.toString());
+    }
 }
