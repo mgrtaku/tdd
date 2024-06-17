@@ -30,6 +30,9 @@ public class ClosedRange {
     }
 
     public boolean isIncluded(ClosedRange range) {
+        if (range.getLowerEndpoint() >= lowerEndpoint && range.getUpperEndpoint() <= upperEndpoint) {
+            return true;
+        }
         return false;
     }
 }
