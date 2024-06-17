@@ -23,6 +23,9 @@ public class ClosedRange {
     }
 
     public boolean contains(int i) {
+        if (i >= lowerEndpoint && i <= upperEndpoint) {
+            return true;
+        }
         return false;
     }
 }
