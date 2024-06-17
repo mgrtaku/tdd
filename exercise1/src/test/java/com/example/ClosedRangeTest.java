@@ -33,4 +33,9 @@ class ClosedRangeTest {
     void 閉区間3_8を与えたときに指定した値5を含むか判定する() {
         assertTrue(range.contains(5));
     }
+
+    @Test
+    void 閉区間3_8を与えたときに指定した値マイナス1を含むか判定する() {
+        assertFalse(range.contains(-1));
+    }
 }
