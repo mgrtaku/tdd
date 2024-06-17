@@ -16,4 +16,9 @@ public class ClosedRange {
     public int getUpperEndpoint() {
         return this.upperEndpoint;
     }
+
+    @Override
+    public String toString() {
+        return "[" + this.lowerEndpoint + "," + this.upperEndpoint + "]";
+    }
 }
